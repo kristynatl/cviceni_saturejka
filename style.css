@@ -3,7 +3,7 @@
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 15px;
-
+  background-color: #FFEFEF;
 }
 
 h1,
@@ -30,8 +30,17 @@ h2 {
   font-size: 22px;
 }
 
+.losos {
+  overflow: auto;
+}
+
 .kure {
   text-align: right;
+  overflow: auto;
+}
+
+.dezert {
+  overflow: auto;
 }
 
 .onas {
@@ -39,22 +48,43 @@ h2 {
   column-gap: 60px;
 }
 
-section img {
-  height: 250px;
-}
-
 footer {
   text-align: center;
 }
 
+section img {
+  height: 240px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+.fotogalerie {
+  display: flex;
+  justify-content: center;
+  /* Zarovnání obsahu na střed */
+  align-items: center;
+  /* Zarovnání obsahu na střed */
+}
+
+section {
+  background-color: white;
+}
+
+.odkaz {
+  background-color: #FFEFEF;
+}
+
 .losos img {
-  height: 300px;
+  float: left;
 }
 
 .kure img {
-  height: 300px;
+  float: right;
 }
 
 .dezert img {
-  height: 300px;
+  float: left;
 }

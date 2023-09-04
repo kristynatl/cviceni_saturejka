@@ -13,7 +13,7 @@ h2 {
 
 h1 {
   text-align: center;
-  font-size: 45px;
+  font-size: 40px;
 }
 
 h2 {
@@ -22,12 +22,14 @@ h2 {
 
 .texthlavicka {
   text-align: center;
-  font-size: 28px;
+  font-size: 24px;
+  margin: 0px 300px 60px 300px;
 }
 
 .textnabidka {
   text-align: center;
-  font-size: 22px;
+  font-size: 19px;
+  margin: 40px 200px;
 }
 
 .losos {
@@ -46,6 +48,9 @@ h2 {
 .onas {
   column-count: 2;
   column-gap: 60px;
+  padding: 0 35px;
+  font-size: 13px;
+  margin-bottom: 60px;
 }
 
 footer {
@@ -67,10 +72,18 @@ section img {
   /* Zarovnání obsahu na střed */
   align-items: center;
   /* Zarovnání obsahu na střed */
+  margin-bottom: 50px;
+}
+
+.fotogalerie img {
+  padding: 15px;
 }
 
 section {
-  background-color: white;
+  background-color: #FFFFFF;
+  margin: 50px 150px;
+  padding: 30px 60px;
+  overflow: auto;
 }
 
 .odkaz {
@@ -79,12 +92,19 @@ section {
 
 .losos img {
   float: left;
+  height: 300px
 }
 
 .kure img {
   float: right;
+  height: 300px;
 }
 
 .dezert img {
   float: left;
+  height: 300px;
+}
+
+header img {
+  margin: 30px;
 }
